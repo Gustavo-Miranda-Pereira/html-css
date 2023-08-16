@@ -1,0 +1,36 @@
+body{
+    background-attachment: fixed;
+    background-color: #addaec;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.centralizado{
+    font-size: 2em;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+}
+
+.esquerda{
+    font-size: 2em;
+    text-align: left;
+}
+
+.p2{
+    text-align: left;
+}
+
+.direita {
+    font-size: 2em;
+    text-align: right;
+}
+
+.p3 {
+    text-align: right;
+}
