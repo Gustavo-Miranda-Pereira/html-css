@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe{
+            display: block;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <!-- Tamanho Padrão do iframe é 300x150-->
@@ -13,8 +19,11 @@
             bom colocar o link aqui dentro caso o navegador não reconheça o iframe
         </iframe> 
         Acessando o site do para aprender a programar.</p>
-       <h2>Um iframe muito utilizado é o para incorporação de vídeos do youtbe</h2>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/1_5V0erG2hw?si=QDLUfjwYBKwS3zss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <h2>Alguns iframes são muito utilizados, como o do player do youtube, mapas do goole e waze, também podem ser colocadas slides e arquivos.</h2>
+       <iframe width="600" height="315" src="https://www.youtube.com/embed/1_5V0erG2hw?si=QDLUfjwYBKwS3zss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235468.50969461098!2d-42.18200780509678!3d-22.758126275197764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97073d3c0566d5%3A0x5115f34a20c5ad67!2sCabo%20Frio%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1693594917343!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-22.883459&lon=-42.025295&ct=livemap" width="600" height="450" allowfullscreen frameborder="0"></iframe>
+       <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSEsc_YyACVvgZ-Kq9He2Yg7Qt_TayggmrUY-3oflVI8LRVkQYihfG6AsjcPJGzmEwgiJirzDgJJNJL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="600" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
        <p>Para carregar links dentro do iframe, temos que dar um nome a ele utilizando a configuração "name" e no link o target tem que ser esse nome, assim conseguimos abrir páginas dentro da página atual</p>
        <ul>
            <li><a href="pag01.html" target="frame">página 1</a></li>
