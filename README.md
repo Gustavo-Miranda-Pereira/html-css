@@ -52,3 +52,7 @@ Estou aprendendo a desenvolver sites e este é o gerenciamento dos exercícios.
 <a href="https://gustavo-miranda-pereira.github.io/html-css/exercicios/ex024/index.html">exercício 24</a>
 
 <a href="https://gustavo-miranda-pereira.github.io/html-css/exercicios/ex025/index.html">exercício 25</a>
+
+<a href="https://gustavo-miranda-pereira.github.io/html-css/exercicios/ex026/index.html">exercício 26</a>
+
+<a href="https://gustavo-miranda-pereira.github.io/html-css/exercicios/ex027/index.html">exercício 27</a>
