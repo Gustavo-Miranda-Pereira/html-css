@@ -82,6 +82,10 @@ article > p{
     margin-bottom: 20px;
 }
 
+p:after{
+    content: 'atualizando';
+}
+
 @media screen and (min-width: 1200px) {
     #btn {
         display: none;
