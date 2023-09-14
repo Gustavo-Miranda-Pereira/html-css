@@ -38,16 +38,8 @@ menu > ul{
     width: 40px;
 }
 
-#btn:hover{
-    background-color: white;
-}
-
 menu{
     display: none;
-}
-
-#nav-btn:checked ~ menu{
-    display: block;
 }
 
 li > a{
@@ -58,10 +50,6 @@ li > a{
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid gray;
-}
-
-a:hover{
-    background-color: gray;
 }
 
 main{
@@ -82,11 +70,20 @@ article > p{
     margin-bottom: 20px;
 }
 
-p:after{
-    content: 'atualizando';
+#btn:hover{
+    background-color: white;
 }
 
-@media screen and (min-width: 768px) {
+
+#nav-btn:checked ~ menu{
+    display: block;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+@media screen and (min-width: 1200px) {
     #btn {
         display: none;
     }
